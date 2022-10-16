@@ -1,19 +1,8 @@
 #include <iostream>
+#include "../interfaces/Duck.cpp"
 #include "../interfaces/FlyBehavior.h"
 #include "../interfaces/QuackBehavior.h"
 using namespace std;
-
-class Duck{
-
-	FlyBehavior flyBehavior;
-	QuackBehavior quackBehavior;
-
-	public:
-		void swin();
-		void display();
-		void performQuack();
-		void performFly();
-};
 
 void Duck::swin(){
 	cout << "Nadando" << endl;

@@ -1,0 +1,1 @@
+g++ entities/*.cpp interfaces/*.hpp interfaceImplementation/*.cpp main.cpp -o go
