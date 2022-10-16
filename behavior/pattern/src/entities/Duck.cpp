@@ -1,6 +1,6 @@
 #include <iostream>
-#include "FlyBehavior.h"
-#include "QuackBehavior.h"
+#include "../interfaces/FlyBehavior.h"
+#include "../interfaces/QuackBehavior.h"
 using namespace std;
 
 class Duck{
@@ -11,9 +11,9 @@ class Duck{
 	public:
 		void swin();
 		void display();
-		void quack();
-		void fly();
-}
+		void performQuack();
+		void performFly();
+};
 
 void Duck::swin(){
 	cout << "Nadando" << endl;
@@ -23,10 +23,10 @@ void Duck::display(){
 	cout << "Aparecendo" << endl;
 }
 
-void Duck::quack(){
+void Duck::performQuack(){
 	quackBehavior.quack();
 }
 
-void Duck::fly(){
+void Duck::performFly(){
 	flyBehavior.fly();
 }

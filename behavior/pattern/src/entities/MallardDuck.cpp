@@ -1,6 +1,6 @@
 #include <iostream>
-#include "FlyWithWings.h"
-#include "Quack.h"
+#include "../interfaceImplementation/FlyWithWings.cpp"
+#include "../interfaceImplementation/Quack.cpp"
 
 using namespace std;
 
@@ -9,7 +9,7 @@ class MallardDuck{
 		void Duck();
 		void quack();
 		void fly();
-}
+};
 
 void Duck::Duck(){
 	flyBehavior = new FlyWithWings();

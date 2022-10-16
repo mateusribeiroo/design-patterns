@@ -1,7 +1,12 @@
 #include <iostream>
-#include "FlyBehavior.h"
+#include "../interfaces/FlyBehavior.h"
 using namespace std;
 
-void fly(){
+class FlyWithWings{
+	public:
+		void fly();
+};
+
+void FlyWithWings::fly(){
 	cout << "voando" << endl;
 }
