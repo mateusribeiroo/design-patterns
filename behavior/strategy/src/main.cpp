@@ -1,12 +1,12 @@
 #include <iostream>
-#include "../entities/Duck.cpp"
-#include "../entities/MallardDuck.cpp"
+#include "interfaces/Duck.hpp"
+#include "interfaces/MallardDuck.hpp"
 
 using namespace std;
 
 int main(){
-	Duck mallard = new MallardDuck();
-	mallard.performQuack();
+	MallardDuck md;
+	md.performQuack();
 
 	return 0;
 }

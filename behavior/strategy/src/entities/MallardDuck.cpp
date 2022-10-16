@@ -1,25 +1,13 @@
 #include <iostream>
-#include "../interfaceImplementation/FlyWithWings.cpp"
-#include "../interfaceImplementation/Quack.cpp"
-
+#include "../interfaces/MallardDuck.hpp"
+#include "../interfaces/FlyWithWings.hpp"
+#include "../interfaces/Quack.hpp"
 using namespace std;
 
-class MallardDuck{
-	public:
-		void Duck();
-		void quack();
-		void fly();
-};
-
-void Duck::Duck(){
-	flyBehavior = new FlyWithWings();
-	quackBehavior = new Quack();
+MallardDuck::MallardDuck() : Duck(FlyWithWings(), Quack()){
+	cout << "Mallard Pato contruido" << endl;
 }
 
-void Duck::fly(){
-	flyBehavior.fly();
-}
-
-void Duck::quack(){
-	quackBehavior.quack();
+void MallardDuck::display(){
+	cout << "Pato mallard aparecendo" << endl;
 }

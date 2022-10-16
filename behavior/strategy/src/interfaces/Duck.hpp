@@ -10,10 +10,10 @@ class Duck{
         FlyBehavior flyBehavior;
         QuackBehavior quackBehavior;
     public:
-        void Duck();
+        Duck(FlyBehavior, QuackBehavior);
         void swin();
         void display();
         void performQuack();
         void performFly();
-}
+};
 #endif
