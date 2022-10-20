@@ -1,4 +1,7 @@
-package java.behavior.strategy.src.entities;
+package entities;
+import classes.FlyWithWings;
+import classes.Quack;
+
 public class MallardDuck extends Duck{
     public MallardDuck(FlyWithWings fw, Quack quack){
         super(fw, quack);
