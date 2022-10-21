@@ -22,7 +22,7 @@ This repository is mainly for learning and praticing.
         - [Strategy](https://github.com/mateusribeiroo/design-patterns/tree/master/ts/behavior/strategy)
 
 ## :wrench: How to run the projects
-### :java: In Java
+### :coffee: In Java
 Inside tha pattern folder run in terminal:
 ```sh
 javac -d bin src/*es/*.java src/App.java
