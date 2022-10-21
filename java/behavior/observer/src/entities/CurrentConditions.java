@@ -10,6 +10,7 @@ public class CurrentConditions implements Observer, Display{
     private float humidity;
 
     public CurrentConditions(WeatherData wd){
+        weatherData = wd;
         wd.registerObserver(this);
     }
 
@@ -20,7 +21,11 @@ public class CurrentConditions implements Observer, Display{
         display();
     }
 
+    public void unregister(){
+        weatherData.removeObserver(this);
+    }
+
     public void display(){
-        System.out.println("displaying");
+        System.out.println("Pressure: " + pressure + "\nHumidity: " + humidity + "\nTemperature: " + temperature);
     }
 }
