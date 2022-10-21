@@ -4,7 +4,8 @@
     :construction:  Project under construction  :construction:
 </h4>
 
-:pencil: My attempts to implement design patterns following the book [Head First: Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/) in Java and maybe in C++.
+### :dart: My attempts to implement design patterns following the book [Head First: Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/) in Java and maybe in.
+This repository is mainly for learning and praticing.
 
 ## :bookmark: Code Navigation Menu
 - [Java](https://github.com/mateusribeiroo/design-patterns/tree/master/java)
