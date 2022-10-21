@@ -4,7 +4,7 @@
     :construction:  Project under construction  :construction:
 </h4>
 
-:pencil: My attempts to implement design patterns following the book [Head First: Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/) in C++ and Java.
+:pencil: My attempts to implement design patterns following the book [Head First: Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/) in Java and maybe in C++.
 
 ## :bookmark: Code Navigation Menu
 - [Java](https://github.com/mateusribeiroo/design-patterns/tree/master/java)
@@ -20,11 +20,10 @@
 ## :wrench: How to run the projects
 Inside tha pattern folder run in terminal:
 ```sh
-    javac -d bin src/*es/*.java src/App.java
+javac -d bin src/*es/*.java src/App.java
 ```
-
 
 After compile the java files, enter bin folder and run:
 ```sh
-    java App
+java App
 ```
