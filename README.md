@@ -22,7 +22,8 @@ Inside tha pattern folder run in terminal:
 ```sh
     javac -d bin src/*es/*.java src/App.java
 ```
-<br>
+
+
 After compile the java files, enter bin folder and run:
 ```sh
     java App
