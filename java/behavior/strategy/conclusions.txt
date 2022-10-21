@@ -1,0 +1,3 @@
+The Strategy design pattern is usefull when you need to specify some behaviors.
+It creates a group of implementations (algorithms), that can be reused in other parts of the project.
+His modularization is also and structure is also concise with the SOLID principles, mainly with the (I)nterface Segregation.
