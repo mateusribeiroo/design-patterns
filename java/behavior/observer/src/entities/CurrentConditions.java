@@ -21,6 +21,16 @@ public class CurrentConditions implements Observer, Display{
         display();
     }
 
+    public void update(wd, args){
+        if(wd instance of WeatherData){
+            this.pressure = wd.getPressure();
+            this.humidity = wd.getHumidity();
+            this.temperature = wd.getTemperature();
+        }
+
+        return;
+    }
+
     public void unregister(){
         weatherData.removeObserver(this);
     }
