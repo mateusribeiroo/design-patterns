@@ -1,6 +1,6 @@
 #include<iostream>
 #include<string>
-#include "observer.h"
+#include "../interfaces/observer.h"
 
 Observer::Observer(std::string name){
   this->name = name;
