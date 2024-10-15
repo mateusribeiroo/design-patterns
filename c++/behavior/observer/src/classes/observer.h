@@ -1,4 +1,5 @@
 #include<string>
+
 #ifndef OBSERVER
 #define OBSERVER
 

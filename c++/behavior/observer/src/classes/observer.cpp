@@ -11,5 +11,9 @@ void Observer::update(){
 }
 
 bool Observer::operator==(Observer obs){
+  if(this == &obs){
+    return true;
+  } 
+
   return false;
 }

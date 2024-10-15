@@ -1,6 +1,6 @@
 #include<iostream>
-#include "subject.h"
-#include "observer.h"
+#include "classes/subject.h"
+#include "classes/observer.h"
 
 int main(){
   std::cout << "Starting observer" << std::endl;
@@ -12,8 +12,8 @@ int main(){
   sub->registerObserver(*obs1);
   sub->registerObserver(*obs2);
 
-  std::cout << "Observador 1: " << obs1->name << std::endl;
-  std::cout << "Observador 2: " << obs2->name << std::endl;
+  std::cout << "Observer 1: " << obs1->name << std::endl;
+  std::cout << "Observer 2: " << obs2->name << std::endl;
 
   sub->notifyObservers();
 
