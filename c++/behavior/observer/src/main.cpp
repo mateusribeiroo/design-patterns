@@ -1,6 +1,6 @@
 #include<iostream>
-#include "interfaces/subject.h"
-#include "interfaces/observer.h"
+#include "headers/subject.h"
+#include "headers/observer.h"
 
 int main(){
   std::cout << "Starting observer" << std::endl;

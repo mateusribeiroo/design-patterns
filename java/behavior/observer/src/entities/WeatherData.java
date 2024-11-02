@@ -42,4 +42,16 @@ public class WeatherData implements Suject{
         this.temperature = temperature;
         measurementsChanged();
     }
+
+    public float getPressure(){
+        return pressure;
+    }
+
+    public float getHumidity(){
+        return humidity;
+    }
+
+    public float getTemperature(){
+        return temperature;
+    }
 }

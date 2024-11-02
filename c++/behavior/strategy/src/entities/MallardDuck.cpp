@@ -1,7 +1,7 @@
 #include <iostream>
-#include "../interfaces/MallardDuck.hpp"
-#include "../interfaces/FlyWithWings.hpp"
-#include "../interfaces/Quack.hpp"
+#include "../headers/MallardDuck.hpp"
+#include "../headers/FlyWithWings.hpp"
+#include "../headers/Quack.hpp"
 using namespace std;
 
 MallardDuck::MallardDuck() : Duck(FlyWithWings(), Quack()){

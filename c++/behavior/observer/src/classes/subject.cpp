@@ -1,4 +1,4 @@
-#include "../interfaces/subject.h"
+#include "../headers/subject.h"
 
 void Subject::registerObserver(Observer &obs){
   observerList.push_back(obs);

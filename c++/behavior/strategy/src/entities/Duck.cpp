@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../interfaces/Duck.hpp"
+#include "../headers/Duck.hpp"
 using namespace std;
 
 Duck::Duck(FlyBehavior flyBehavior, QuackBehavior quackBehavior) : flyBehavior(), quackBehavior(){

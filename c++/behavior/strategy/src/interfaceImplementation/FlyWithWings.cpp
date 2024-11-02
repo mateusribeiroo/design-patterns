@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../interfaces/FlyWithWings.hpp"
+#include "../headers/FlyWithWings.hpp"
 using namespace std;
 
 void FlyWithWings::fly(){

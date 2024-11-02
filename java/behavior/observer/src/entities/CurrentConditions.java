@@ -21,8 +21,8 @@ public class CurrentConditions implements Observer, Display{
         display();
     }
 
-    public void update(wd, args){
-        if(wd instance of WeatherData){
+    public void update(WeatherData wd, Object args){
+        if(wd instanceof WeatherData){
             this.pressure = wd.getPressure();
             this.humidity = wd.getHumidity();
             this.temperature = wd.getTemperature();
