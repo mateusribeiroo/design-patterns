@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../interfaces/Squeeze.hpp"
+#include "../headers/Squeeze.hpp"
 using namespace std;
 
 void quack(){

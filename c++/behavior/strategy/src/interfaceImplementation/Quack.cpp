@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../interfaces/Quack.hpp"
+#include "../headers/Quack.hpp"
 using namespace std;
 
 void quack(){
